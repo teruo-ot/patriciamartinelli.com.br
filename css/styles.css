@@ -11585,7 +11585,7 @@ footer a:hover, footer a:active, footer a:focus {
   .masthead .masthead-device-mockup .circle {
     width: 70%;
     display: block;
-    padding-top: 12.5rem;
+    margin-top: 12.5rem;
   }
   .masthead .masthead-device-mockup .device-wrapper {
     max-width: 12.5rem;
