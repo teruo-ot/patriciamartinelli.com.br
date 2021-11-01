@@ -16,43 +16,16 @@
         <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
         <script> 
-            $(function(){
-              $("#includedContent").load("b.html"); 
-            });
-            </script> 
+
+        </script>
     </head>
     <body id="page-top">
-        <div id="includedContent"></div>
-        <!-- Navigation-->
-       <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
-        <div class="container px-5">
-            <a class="navbar-brand fw-bold" href="#page-top">
-                <img src="assets/img/cropped-logo_patricia_martinelli_125.png" />
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="bi-list"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                    <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Especialidades</a></li>
-                    <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Depoimentos</a></li>
-                    <li class="nav-item"><a class="nav-link me-lg-3" href="#">Artigos</a></li>
-                    <li class="nav-item"><a class="nav-link me-lg-3" href="#">Escolha Consciente</a></li>
-                </ul>
-                <a target="_blank" href="https://api.whatsapp.com/send?phone=5511971056730&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.">
-                    <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0">
-                    <span class="d-flex align-items-center">
-                        <i class="bi-whatsapp me-2"></i>
-                        <span class="small">Fale Comigo</span>
-                    </span>
-                    </button>
-                </a>
-            </div>
-        </div>
-    </nav>
+
+        <!-- Include do header.html -->
+        <div data-include="header"></div>
+
         <!-- Mashead header-->
         <header class="masthead">
             <div class="container px-5">
@@ -180,28 +153,21 @@
                 </div>
             </div>
         </section>
-        <!-- Footer-->
-        <footer class="bg-black text-center py-5">
-            <div class="container px-5">
-                <div class="text-white-50 small">
-                    <div class="mb-2">&copy; Your Website 2021. All Rights Reserved.</div>
-                    <a href="#!">Privacy</a>
-                    <span class="mx-1">&middot;</span>
-                    <a href="#!">Terms</a>
-                    <span class="mx-1">&middot;</span>
-                    <a href="#!">FAQ</a>
-                </div>
-            </div>
-        </footer>
+        
+        <!-- Include do Rodapé -->
+        <div data-include="footer"></div>
 
         <!-- Botão do whatsapp -->
         <a href="https://api.whatsapp.com/send?phone=5511971056730&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="whatsapp_float" target="_blank" rel="noopener noreferrer">
             <i class="bi-whatsapp"></i>
         </a>
-        <!-- Fim do Botão do whatsapp -->
 
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- jquery Library -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
 
