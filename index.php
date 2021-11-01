@@ -19,33 +19,33 @@
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
-            <div class="container px-5">
-                <a class="navbar-brand fw-bold" href="#page-top">
-                    <img src="assets/img/cropped-logo_patricia_martinelli_125.png" />
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="bi-list"></i>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+    <div class="container px-5">
+        <a class="navbar-brand fw-bold" href="#page-top">
+            <img src="assets/img/cropped-logo_patricia_martinelli_125.png" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="bi-list"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Especialidades</a></li>
+                <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Depoimentos</a></li>
+                <li class="nav-item"><a class="nav-link me-lg-3" href="#">Artigos</a></li>
+                <li class="nav-item"><a class="nav-link me-lg-3" href="#">Escolha Consciente</a></li>
+            </ul>
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=5511971056730&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.">
+                <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0">
+                <span class="d-flex align-items-center">
+                    <i class="bi-whatsapp me-2"></i>
+                    <span class="small">Fale Comigo</span>
+                </span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Especialidades</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Depoimentos</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#">Artigos</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#">Escolha Consciente</a></li>
-                    </ul>
-                    <a target="_blank" href="https://api.whatsapp.com/send?phone=5511971056730&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.">
-                        <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0">
-                        <span class="d-flex align-items-center">
-                            <i class="bi-whatsapp me-2"></i>
-                            <span class="small">Fale Comigo</span>
-                        </span>
-                        </button>
-                    </a>
-                </div>
-            </div>
-        </nav>
+            </a>
+        </div>
+    </div>
+</nav>
         <!-- Mashead header-->
         <header class="masthead">
             <div class="container px-5">
@@ -53,8 +53,8 @@
                     <div class="col-lg-6">
                         <!-- Mashead text and app badges-->
                         <div class="mb-5 mb-lg-0 text-center text-lg-start">
-                            <h1 class="display-1 lh-1 mb-3">Você não precisa enfrentar as dificuldades sozinha.</h1>
-                            <p class="lead fw-normal text-muted mb-5">Nós, psicólogos, ajudamos o paciente a superar situações difíceis ou problemáticas em sua vida.</p>
+                            <h1 class="display-1 lh-1 mb-3">Você não precisa enfrentar as dificuldades sozinha ou sozinho.</h1>
+                            <p class="lead fw-normal text-muted mb-5">Nós, psicólogos, ajudamos o paciente ou a paciente a superar situações difíceis ou problemáticas em sua vida.</p>
                             <div class="d-flex flex-column flex-lg-row align-items-center">
                                 <!-- <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a>
                                 <a href="#!"><img class="app-badge" src="assets/img/app-store-badge.svg" alt="..." /></a> -->
@@ -142,7 +142,7 @@
                 <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
                     <div class="col-12 col-lg-5">
                         <h2 class="display-4 lh-1 mb-4">Minha trajetória acadêmica e profissional me trouxe até você.</h2>
-                        <p class="lead fw-normal text-muted mb-5 mb-lg-0">Embora suas queixas possam ser parecidas com a de outros, para nós, cada você é único.</p>
+                        <p class="lead fw-normal text-muted mb-5 mb-lg-0">Embora suas queixas possam ser parecidas com a de outros ou de outras, para nós, você é único ou única.</p>
                     </div>
                     <div class="col-sm-8 col-md-6">
                         <div class="px-5 px-sm-0"><img class="img-fluid rounded-3" src="assets/img/career-timeline.png" alt="Trajetória acadêmica e profissional da psicóloga Patrícia Martinelli" /></div>
