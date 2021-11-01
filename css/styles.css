@@ -20,6 +20,7 @@
   --bs-yellow: #ffc107;
   --bs-green: #198754;
   --bs-teal: #20c997;
+  --bs-psy: #28bca5;
   --bs-cyan: #0dcaf0;
   --bs-white: #fff;
   --bs-gray: #6c757d;
@@ -3031,13 +3032,16 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #2937f0;
-  border-color: #2937f0;
+  /* background-color: #2937f0; */
+  /* border-color: #2937f0; */
+  background-color: var(--bs-psy);
+  border-color: var(--bs-psy);
+  
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #232fcc;
-  border-color: #212cc0;
+  background-color: var(--bs-green);
+  border-color: var(--bs-green);
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
