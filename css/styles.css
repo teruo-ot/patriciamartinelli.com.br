@@ -3043,19 +3043,19 @@ textarea.form-control-lg {
   color: #fff;
   /* background-color: #2937f0; */
   /* border-color: #2937f0; */
-  background-color: var(--bs-psy);
-  border-color: var(--bs-psy);
+  background-color: var(--bs-green);
+  border-color: var(--bs-green  );
   
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: var(--bs-green);
-  border-color: var(--bs-green);
+  background-color: var(--bs-psy29);
+  border-color: var(--bs-psy29);
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #232fcc;
-  border-color: #212cc0;
+  background-color: var(--bs-psy29);
+  border-color:  var(--bs-psy29);
   box-shadow: 0 0 0 0.25rem rgba(73, 85, 242, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
@@ -11421,10 +11421,11 @@ section {
 section.cta {
   position: relative;
   padding: 15rem 0;
-  background-image: url("https://source.unsplash.com/5g41N3uRPf8/1500x800");
+  background-image: url(/assets/img/patricia-banner-1024x427.webp);
   background-position: center;
   background-size: cover;
 }
+
 section.cta .cta-content {
   position: relative;
   z-index: 1;
@@ -11438,6 +11439,29 @@ section.cta:before {
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
 }
+
+section.map {
+  position: relative;
+  padding: 5rem 0;
+  background-image: url(/assets/img/mapaPatricia.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+section.map .map-content {
+  position: relative;
+  z-index: 1;
+}
+section.map:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
 
 .icon-feature {
   font-size: 4rem;
